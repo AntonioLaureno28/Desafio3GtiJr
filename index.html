@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Times Pokemon</title>
+    <link rel="stylesheet" href="src/Style.css">
+</head>
+<body>
+
+    <div class="title-1">
+        <h1>POKÉMON ARENA</h1>
+        <p id="p1">Escolha 6 pokemons dentre os disponíveis e, logo em seguida, escolha o nome do time
+           e salve-o.
+        </p>
+    </div>
+    
+    
+    <div id="poke-container" class="flex-container"></div> 
+    
+    
+    <div class="b">
+        <label class="nametime" for="name">Nome do Time:</label>
+        <input type="text" id="name">
+        <button class="button1" onclick="saveTeam()">Salvar Time</button>
+    </div>
+    <script src="src/Script.js"></script>
+</body>
+</html>
